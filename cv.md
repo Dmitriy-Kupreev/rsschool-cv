@@ -2,22 +2,22 @@
 
 ---
 
-##Dmitriy Kupreev
+## Dmitriy Kupreev
 
 ---
 
-####Contacts
+#### Contacts
 
 - **_Discord:_** DmitriyKupreev(@Dmitriy-Kupreev)
 - **_GitHub:_** Dmitriy-Kupreev
 - **_Tel:_** +7 926 457 80 15
 - **_E-mail:_** d3_october@yahoo.com
 
-####About me
+#### About me
 
 I worked as a designer and art-director in an advertising agency. I plan to study Web development.
 
-####Skills
+#### Skills
 
 1. HTML
 1. CSS
@@ -25,7 +25,7 @@ I worked as a designer and art-director in an advertising agency. I plan to stud
 1. Git
 1. Photoshop
 
-####Code Example
+#### Code Example
 
 ```
 function multiply(a, b){
@@ -36,17 +36,17 @@ const result = sum(1, 9);
 console.log( result );
 ```
 
-####Experience
+#### Experience
 
 - 05.2008 – 11.2008 Advertising and information group **"Business contact"**, _Moscow_ – art director
 - 07.2006-05.2008 **"New advertising company"**, _Moscow_ – art director
 - 03.2006 – 05.2006 LLC **"PLAYFON"**, _Moscow_ – leading designer
 - 05.2004 – 02.2006 Group of advertising companies **"OSCAR"**, _Moscow_ – creative designer
 
-####Education
+#### Education
 
 Frontend development course - **Training Center _"Professional"_**, _Moscow_, 2022.
 
-####English
+#### English
 
 Level - A2
