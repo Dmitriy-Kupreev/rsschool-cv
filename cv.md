@@ -23,6 +23,7 @@ I worked as a designer and art-director in an advertising agency. I plan to stud
 1. CSS
 1. JavaScript (the basics)
 1. Git
+1. Photoshop
 
 ####Code Example
 
