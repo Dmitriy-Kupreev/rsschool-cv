@@ -3,6 +3,21 @@
 	src: url("assets/fonts/cour.ttf");
 }
 
+@font-face {
+	font-family: "Courier New";
+	src: url("assets/fonts/courbd.ttf");
+}
+
+@font-face {
+	font-family: "Courier New";
+	src: url("assets/fonts/courbi.ttf");
+}
+
+@font-face {
+	font-family: "Courier New";
+	src: url("assets/fonts/couri.ttf");
+}
+
 @media (max-width: 760px) {
 	.div-container {
 		flex-wrap: wrap;
