@@ -1,35 +1,96 @@
+@font-face {
+	font-family: "Courier New";
+	src: url("assets/fonts/cour.ttf");
+}
+
+@media (max-width: 760px) {
+	.div-container {
+		flex-wrap: wrap;
+	}
+}
+
 * {
-	/* margin: 0;
-	padding: 0; */
+	box-sizing: border-box;
 	font-family: "Courier New", Courier, monospace;
 }
-.main {
-	/* margin: 0 auto;
-	width: 50%; */
+
+.nav-list,
+.footer-list {
 	display: flex;
-	padding: 4rem;
-	/* margin: 4rem; */
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+	flex-wrap: wrap;
+	padding-inline-start: 0px;
 }
-img {
-	width: 75%;
-	border-radius: 1rem;
-	max-width: 350px;
-	min-width: 150px;
-	/* padding-top: 1rem; */
-	margin-right: 0.5rem;
-	/* height: 35%; */
+
+.nav-link,
+.footer-link {
+	line-height: 30px;
+	transition: 0.3s;
 }
-h4 {
+
+li > a {
+	text-decoration: none;
+	color: #000000;
+	background-color: #faea68;
+}
+
+li > a:hover {
+	color: #faea68;
+	background-color: #000000;
+}
+
+p > a:nth-child(1) {
+	text-decoration: none;
+	color: #000000;
+}
+
+p > a:nth-child(1):hover {
+	background-color: #faea68;
+}
+
+.div-container {
+	display: flex;
+	padding: 2rem 4rem;
+	background-color: #f1f1f1;
+}
+
+h3 {
 	margin-top: 1rem;
-	border-bottom: 1px dotted #000;
+	border-bottom: 1px dotted #000000;
 }
+
 pre {
-	background-color: lightgrey;
+	background-color: #ffffff;
 	border-radius: 1rem;
 }
+
 span {
 	background-color: #faea68;
 }
-body > div > div:nth-child(1) {
+
+.div-left {
 	padding-top: 1rem;
+	text-align: center;
+}
+
+.div-right {
+	padding-left: 10px;
+}
+
+.div-left > img {
+	width: 75%;
+	max-width: 350px;
+	min-width: 150px;
+	border-radius: 1rem;
+}
+
+.my-logo-img:hover {
+	filter: saturate(300%);
+}
+
+.rs-school-img {
+	width: 150px;
+	height: 55.7px;
 }
