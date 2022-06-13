@@ -67,6 +67,7 @@ p > a:nth-child(1):hover {
 
 .div-container {
 	display: flex;
+	justify-content: center;
 	padding: 2rem 4rem;
 	background-color: #f1f1f1;
 }
